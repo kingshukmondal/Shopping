@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:layout_marginVertical="@dimen/_3sdp"
+
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:paddingLeft="@dimen/_8sdp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/thubnail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:paddingVertical="@dimen/_10sdp"
+            android:src="@drawable/img_1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:paddingRight="@dimen/_5sdp"
+            android:paddingLeft="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/productname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Freckle Treatment Cream- 15gm"
+                android:paddingLeft="@dimen/_5sdp"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/black"/>
+
+
+            <RatingBar
+                android:id="@+id/rating"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isIndicator="true"
+                android:layout_gravity="left"
+                android:rating="3.5"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:progressTint="#FF9800"
+                android:layout_marginVertical="@dimen/_2sdp"
+                android:numStars="5"
+                android:stepSize="0.1" />
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/price1"
+                    android:layout_width="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/_14sdp"
+                    android:text="8999"
+                    android:gravity="right"
+                    android:textColor="#86000000"/>
+
+                <TextView
+                    android:id="@+id/price2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="₹7598"
+                    android:paddingHorizontal="@dimen/_5sdp"
+                    android:gravity="center_vertical|left"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+
+                <TextView
+                    android:id="@+id/discount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/_13sdp"
+                    android:text="17% off"
+                    android:paddingHorizontal="@dimen/_5sdp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="#4CAF50"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/brand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:text="Apple"
+                android:paddingLeft="@dimen/_5sdp"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>
