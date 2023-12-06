@@ -20,12 +20,9 @@ Android Studio, Java, Xml, API Integration, Volley Library, ViewPager with Indic
 
 <html>
 
-<p float="left">
-<img style="margin-right: 100px" src="![image (1)](https://github.com/kingshukmondal/Shopping/assets/68275823/7c0028f6-398c-43d7-821f-2af8ee6000fe)" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
-<img style="margin-right: 100px" src="![image (2)](https://github.com/kingshukmondal/Shopping/assets/68275823/a0606ac8-cb64-4174-9236-03f06828acc9)" width="200" height="400" />
-
-
-</p>
+<img style="margin-right: 100px " src="https://github.com/kingshukmondal/WhatsAppClone/assets/68275823/884dc41c-5af7-43ba-9137-5183c47e4459.jpg" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img style=" padding-left: 300px" src="https://github.com/kingshukmondal/WhatsAppClone/assets/68275823/33b8993d-128c-4655-b9b3-e61403acd009.jpg" data-canonical-
+src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
 </html>
 
